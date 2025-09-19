@@ -30,8 +30,7 @@ int main(void) {
         if (i) putchar(' ');
         printf("%d", a[i]);
     }
-    putchar('
-');
+    putchar('\n');
 
     free(a);
     return 0;
